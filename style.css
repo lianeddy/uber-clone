@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: "Uber Move Medium";
+}
+
+@font-face {
+  font-family: "Uber Move Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Uber Move Medium"),
+    url("./assets/fonts/UberMoveMedium.otf") format("woff");
+}
+
+@font-face {
+  font-family: "Uber Move Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Uber Move Bold"),
+    url("./assets/fonts/UberMoveBold.otf") format("woff");
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
+  background-color: black;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.header-item {
+  margin: 0px 10px;
+  padding: 5px 12px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  outline: none;
+  border: none;
+}
+
+.header-item:hover {
+  background-color: rgb(51, 51, 51);
+  transition: 250ms;
+  cursor: pointer;
+}
+
+.svg-company {
+  padding-top: 5px;
+}
+
+.logo {
+  font-size: 24px;
+  margin: 7px;
+  padding: 10px;
+}
+
+.sign-up-btn {
+  background-color: white;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.jumbotron-container {
+  background-color: black;
+  color: white;
+}
+
+.jumbotron {
+  margin: 0 300px;
+  padding: 75px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbotron-text-container {
+  padding: 0 100px 0 0;
+}
+
+.jumbotron-image-container {
+}
+
+.jumbotron-item {
+  margin: 30px 0;
+}
+
+.jumbotron-text-main {
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.jumborton-image {
+  height: 300px;
+  width: 500px;
+}
+
+.learn-more-btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.services-container {
+  background-image: url("./assets/images/eats-hero-desktop-5.jpg");
+}
+
+.services-bar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.services-content-container {
+  margin: 0 335px;
+  padding: 150px 0;
+}
+
+.services-button {
+  padding: 35px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.service-info-header {
+  font-size: 50px;
+  margin: 10px 0 20px 0;
+}
+
+.service-info-container {
+  width: 50%;
+  background-color: white;
+  padding: 40px 40px;
+}
+
+.service-info-caption {
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 0 20px 0;
+}
+
+.service-info-links {
+  margin: 30px 0 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.services-icon {
+  padding: 15px 0;
+}
+
+.order-btn {
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 18px 25px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.picked {
+  border-bottom: 3px solid black;
+  content: "";
+  display: block;
+  margin: 0 auto;
+}
