@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: "Uber Move Medium";
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
 }
 
 @font-face {
@@ -183,4 +184,56 @@ body {
   content: "";
   display: block;
   margin: 0 auto;
+}
+
+.modalities-container {
+  background-image: url("./assets/images/Modalities_banner_home.jpg");
+  height: 90vh;
+  background-size: cover;
+}
+
+.details-container {
+  height: 200vh;
+  margin: 0 300px;
+}
+
+.details {
+  padding: 50px 75px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin: 100px 0;
+}
+
+.card img {
+  height: 240px;
+  width: 360px;
+}
+
+.card {
+  padding: 0 25px;
+}
+
+.text-card {
+  text-align: justify;
+}
+
+.detail-button {
+  text-decoration: underline gray;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin: 100px 0;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
 }
